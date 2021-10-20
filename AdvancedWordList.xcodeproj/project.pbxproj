@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0418790272068E0002A80E1 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */; };
+		F041879227206924002A80E1 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */; };
 		F04FE5E4271C86FC00DA5AF5 /* AdvancedWordListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FE5E3271C86FC00DA5AF5 /* AdvancedWordListApp.swift */; };
 		F04FE5E6271C86FC00DA5AF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FE5E5271C86FC00DA5AF5 /* ContentView.swift */; };
 		F04FE5E8271C870000DA5AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04FE5E7271C870000DA5AF5 /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F04FE5E0271C86FC00DA5AF5 /* AdvancedWordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedWordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04FE5E3271C86FC00DA5AF5 /* AdvancedWordListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedWordListApp.swift; sourceTree = "<group>"; };
 		F04FE5E5271C86FC00DA5AF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				F04FE5F7271C893E00DA5AF5 /* AdvancedWordList.entitlements */,
 				F04FE5E3271C86FC00DA5AF5 /* AdvancedWordListApp.swift */,
 				F04FE5E5271C86FC00DA5AF5 /* ContentView.swift */,
+				F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */,
+				F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */,
 				F04FE5F2271C872200DA5AF5 /* Main.xcdatamodeld */,
 				F04FE64F271DF4D500DA5AF5 /* HomeView.swift */,
 				F04FE651271DF4E900DA5AF5 /* ProjectsView.swift */,
@@ -166,10 +172,12 @@
 			files = (
 				F04FE652271DF4E900DA5AF5 /* ProjectsView.swift in Sources */,
 				F04FE5F4271C872200DA5AF5 /* Main.xcdatamodeld in Sources */,
+				F041879227206924002A80E1 /* Project-CoreDataHelpers.swift in Sources */,
 				F04FE5F6271C88AC00DA5AF5 /* DataController.swift in Sources */,
 				F04FE5E6271C86FC00DA5AF5 /* ContentView.swift in Sources */,
 				F04FE650271DF4D500DA5AF5 /* HomeView.swift in Sources */,
 				F04FE5E4271C86FC00DA5AF5 /* AdvancedWordListApp.swift in Sources */,
+				F0418790272068E0002A80E1 /* Item-CoreDataHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
