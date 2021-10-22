@@ -42,7 +42,11 @@ struct EditItemView: View {
                   Toggle("Mark Completed", isOn: $completed)
         } }
         .navigationTitle("Edit Item")
-        .onDisappear(perform: update)
+        .onDisappear (perform: dataController.save)
+        .onChange(of: title) {_ in update() }
+        .onChange(of: detail) {_ in update() }
+        .onChange(of: priority) {_ in update() }
+        .onChange(of: completed) {_ in update() }
     }
     
     func update() {
