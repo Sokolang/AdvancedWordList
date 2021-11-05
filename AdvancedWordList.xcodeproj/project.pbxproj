@@ -24,6 +24,10 @@
 		F04FE652271DF4E900DA5AF5 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FE651271DF4E900DA5AF5 /* ProjectsView.swift */; };
 		F06539AC272B4825009E4E2C /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539AB272B4825009E4E2C /* EditProjectView.swift */; };
 		F06539B4273304E4009E4E2C /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539B3273304E4009E4E2C /* SelectSomethingView.swift */; };
+		F06539CE273565A7009E4E2C /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539CD273565A7009E4E2C /* Bundle-Decodable.swift */; };
+		F06539D0273565CB009E4E2C /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539CF273565CB009E4E2C /* Award.swift */; };
+		F06539D2273565F1009E4E2C /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539D1273565F1009E4E2C /* AwardsView.swift */; };
+		F06539D42735661C009E4E2C /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F06539D32735661C009E4E2C /* Awards.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,10 @@
 		F04FE651271DF4E900DA5AF5 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		F06539AB272B4825009E4E2C /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
 		F06539B3273304E4009E4E2C /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		F06539CD273565A7009E4E2C /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		F06539CF273565CB009E4E2C /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		F06539D1273565F1009E4E2C /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		F06539D32735661C009E4E2C /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 			children = (
 				F04FE5F7271C893E00DA5AF5 /* AdvancedWordList.entitlements */,
 				F04FE5E3271C86FC00DA5AF5 /* AdvancedWordListApp.swift */,
+				F06539CD273565A7009E4E2C /* Bundle-Decodable.swift */,
+				F06539CF273565CB009E4E2C /* Award.swift */,
+				F06539D32735661C009E4E2C /* Awards.json */,
+				F06539D1273565F1009E4E2C /* AwardsView.swift */,
 				F06539B3273304E4009E4E2C /* SelectSomethingView.swift */,
 				F06539AB272B4825009E4E2C /* EditProjectView.swift */,
 				F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */,
@@ -177,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F01467252725BDE9001C4F7C /* Colors.xcassets in Resources */,
+				F06539D42735661C009E4E2C /* Awards.json in Resources */,
 				F04FE5EB271C870000DA5AF5 /* Preview Assets.xcassets in Resources */,
 				F04FE5E8271C870000DA5AF5 /* Assets.xcassets in Resources */,
 			);
@@ -194,13 +207,16 @@
 				F041879227206924002A80E1 /* Project-CoreDataHelpers.swift in Sources */,
 				F04FE5F6271C88AC00DA5AF5 /* DataController.swift in Sources */,
 				F06539B4273304E4009E4E2C /* SelectSomethingView.swift in Sources */,
+				F06539CE273565A7009E4E2C /* Bundle-Decodable.swift in Sources */,
 				F01467232725BDAF001C4F7C /* ProjectHeaderView.swift in Sources */,
 				F014671527230D9C001C4F7C /* ItemRowView.swift in Sources */,
+				F06539D2273565F1009E4E2C /* AwardsView.swift in Sources */,
 				F04FE5E6271C86FC00DA5AF5 /* ContentView.swift in Sources */,
 				F04FE650271DF4D500DA5AF5 /* HomeView.swift in Sources */,
 				F06539AC272B4825009E4E2C /* EditProjectView.swift in Sources */,
 				F04FE5E4271C86FC00DA5AF5 /* AdvancedWordListApp.swift in Sources */,
 				F0418790272068E0002A80E1 /* Item-CoreDataHelpers.swift in Sources */,
+				F06539D0273565CB009E4E2C /* Award.swift in Sources */,
 				F014671327230D73001C4F7C /* EditItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
