@@ -28,6 +28,7 @@
 		F06539D0273565CB009E4E2C /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539CF273565CB009E4E2C /* Award.swift */; };
 		F06539D2273565F1009E4E2C /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539D1273565F1009E4E2C /* AwardsView.swift */; };
 		F06539D42735661C009E4E2C /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F06539D32735661C009E4E2C /* Awards.json */; };
+		F06539DC2736955C009E4E2C /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539DB2736955C009E4E2C /* Color-Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		F06539CF273565CB009E4E2C /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		F06539D1273565F1009E4E2C /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		F06539D32735661C009E4E2C /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		F06539DB2736955C009E4E2C /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				F06539CF273565CB009E4E2C /* Award.swift */,
 				F06539D32735661C009E4E2C /* Awards.json */,
 				F06539D1273565F1009E4E2C /* AwardsView.swift */,
+				F06539DB2736955C009E4E2C /* Color-Additions.swift */,
 				F06539B3273304E4009E4E2C /* SelectSomethingView.swift */,
 				F06539AB272B4825009E4E2C /* EditProjectView.swift */,
 				F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */,
@@ -208,6 +211,7 @@
 				F04FE5F6271C88AC00DA5AF5 /* DataController.swift in Sources */,
 				F06539B4273304E4009E4E2C /* SelectSomethingView.swift in Sources */,
 				F06539CE273565A7009E4E2C /* Bundle-Decodable.swift in Sources */,
+				F06539DC2736955C009E4E2C /* Color-Additions.swift in Sources */,
 				F01467232725BDAF001C4F7C /* ProjectHeaderView.swift in Sources */,
 				F014671527230D9C001C4F7C /* ItemRowView.swift in Sources */,
 				F06539D2273565F1009E4E2C /* AwardsView.swift in Sources */,
