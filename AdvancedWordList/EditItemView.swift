@@ -27,8 +27,8 @@ struct EditItemView: View {
     var body: some View {
         Form {
               Section(header: Text("Basic settings")) {
-                  TextField("Item name", text: $title)
-                  TextField("Description", text: $detail)
+                  TextField("Word", text: $title)
+                  TextField("Translation", text: $detail)
               }
               Section(header: Text("Priority")) {
                   Picker("Priority", selection: $priority) {
@@ -41,7 +41,7 @@ struct EditItemView: View {
               Section {
                   Toggle("Mark Completed", isOn: $completed)
         } }
-        .navigationTitle("Edit Item")
+        .navigationTitle("Edit Word")
         .onDisappear (perform: dataController.save)
         .onChange(of: title) {_ in update() }
         .onChange(of: detail) {_ in update() }

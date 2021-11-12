@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  AdvancedWordList
+
+  Created by Anzhellika Sokolova on 12.11.2021.
+  
+*/
+
+/* GENERAL STRINGS */
+
+"OK" = "OK";
+"Delete" = "Delete";
+"Basic settings" = "Basic settings";
+
+
+
+/* MAIN ACTIVITIES */
+
+"Home" = "Home";
+"Open" = "Open";
+"Closed" = "Closed";
+"Awards" = "Awards";
+
+
+
+/* HOME VIEW */
+
+"Up next" = "Up next";
+"More to explore" = "More to explore";
+
+
+
+/* PROJECTS VIEW */
+
+"Open Themes" = "Open Themes";
+"Closed Themes" = "Closed Themes";
+"Add Theme" = "Add Theme";
+"Add New Word" = "Add New Word";
+"There's nothing here right now" = "There's nothing here right now";
+
+/* A button that shows a menu with the following options */
+"Sort" = "Sort";
+"Sort words" = "Sort words"; /* The title of the menu */
+"Optimized" = "Optimized"; /* Sort using an optimized algorithm */
+"Creation Date" = "Creation Date"; /* Sort by the date words were created */
+"Title" = "Title"; /* Sort by word title */
+
+/* Default names for a new project and a new item */
+"New Theme" = "New Theme";
+"New Word" = "New Word";
+
+
+
+/* EDITING PROJECTS */
+"Edit Theme" = "Edit Theme";
+"Theme name" = "Theme name";
+"Description of this theme" = "Description of this theme";
+"Custom theme color" = "Custom theme color";
+
+/* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
+"Close this theme" = "Close this theme";
+"Closing a theme moves it from the Open to Closed tab; deleting it removes the theme entirely." = "Closing a theme moves it from the Open to Closed tab; deleting it removes the theme entirely.";
+"Reopen this theme" = "Reopen this theme";
+"Delete this theme" = "Delete this theme";
+"Delete theme?" = "Delete theme?";
+"Are you sure you want to delete this theme? You will also delete all the words it contains." = "Are you sure you want to delete this theme? You will also delete all the words it contains.";
+
+
+
+/* EDITING ITEMS */
+"Edit Word" = "Edit Word";
+"Word name" = "Word name";
+"Translation" = "Translation";
+"Priority" = "Priority";
+"Low" = "Low";
+"Medium" = "Medium";
+"High" = "High";
+
+"Mark Completed" = "Mark Completed"; /* Mark this item as being completed (finished/accomplished) */
+
+
+
+/* AWARDS */
+
+"Locked" = "Locked";
+"Unlocked: %@" = "Unlocked: %@";
+
+
+
+/* OTHER STRINGS */
+
+/* Shown by default when the user hasn't select a project or item */
+"Please select something from the menu to begin." = "Please select something from the menu to begin.";

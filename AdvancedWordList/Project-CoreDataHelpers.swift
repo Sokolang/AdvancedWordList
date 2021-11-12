@@ -8,9 +8,10 @@
 import Foundation
 
 extension Project {
+
     var projectTitle: String {
-        title ?? "New Project"
-     }
+        title ?? NSLocalizedString("New Theme", comment: "Create a new theme")
+    }
     
     var projectDetail: String {
         detail ?? ""
@@ -60,8 +61,8 @@ extension Project {
         let viewContext = controller.container.viewContext
         
         let project = Project(context: viewContext)
-            project.title = "Example Project"
-            project.detail = "This is an example project"
+            project.title = "Example Theme"
+            project.detail = "This is an example theme"
             project.closed = true
             project.creationDate = Date()
         return project

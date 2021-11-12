@@ -33,11 +33,11 @@ struct EditProjectView: View {
     var body: some View {
         Form {
             Section(header: Text("Basic settings")) {
-                TextField("Project name", text: $title)
-                TextField("Description of this project", text: $detail)
+                TextField("Theme name", text: $title)
+                TextField("Description of this theme", text: $detail)
             }
            
-            Section(header: Text("Custom project color")) {
+            Section(header: Text("Custom theme color")) {
                 LazyVGrid(columns: colorColumns) {
                     ForEach(Project.colors, id: \.self) { item in
                         ZStack {
@@ -58,23 +58,23 @@ struct EditProjectView: View {
                 }
                 .padding(.vertical)
             }
-            Section(footer: Text("Closing a project moves it from the Open to Closed tab; deleting it removes the project entirely.")) {
-                Button(project.closed ? "Reopen this project" : "Close this project") {
+            Section(footer: Text("Closing a theme moves it from the Open to Closed tab; deleting it removes the theme entirely.")) {
+                Button(project.closed ? "Reopen this theme" : "Close this theme") {
                     project.closed.toggle()
                     update()
                 }
-                Button("Delete this project") {
+                Button("Delete this theme") {
                     showingDeleteConfirm.toggle()
                 }
                 .accentColor(.red)
              }
         }
-        .navigationTitle("Edit Project")
+        .navigationTitle("Edit Theme")
         .onDisappear(perform: dataController.save)
         .onChange(of: title) {_ in update() }
         .onChange(of: detail) {_ in update() }
         .alert(isPresented: $showingDeleteConfirm) {
-              Alert(title: Text("Delete project?"), message: Text("Are you sure you want to delete the project?"))
+              Alert(title: Text("Delete theme?"), message: Text("Are you sure you want to delete the theme?"))
         }
     }
     

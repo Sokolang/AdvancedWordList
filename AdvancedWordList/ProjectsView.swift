@@ -58,7 +58,7 @@ struct ProjectsView: View {
                                             dataController.save()
                                         }
                                     } label: {
-                                        Label("Add New Item", systemImage: "plus")
+                                        Label("Add New Word", systemImage: "plus")
                                     }
                                 }
                             }
@@ -68,7 +68,7 @@ struct ProjectsView: View {
 
                 }
             }
-                .navigationTitle(showClosedProjects ? "Closed Projects" : "Open Projects")
+                .navigationTitle(showClosedProjects ? "Closed Themes" : "Open Themes")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
                         if showClosedProjects == false { Button {
@@ -79,7 +79,7 @@ struct ProjectsView: View {
                                 dataController.save()
                             }
                         } label: {
-                            Label("Add Project", systemImage: "plus")
+                            Label("Add Theme", systemImage: "plus")
                         }
                         } }
                     ToolbarItem(placement: .navigationBarLeading) {
@@ -90,7 +90,7 @@ struct ProjectsView: View {
                         }
                     } }
                 .actionSheet(isPresented: $showingSortOrder) {
-                    ActionSheet(title: Text("Sort items"), message: nil, buttons: [
+                    ActionSheet(title: Text("Sort words"), message: nil, buttons: [
                         .default(Text("Optimized")) { sortOrder = .optimized },
                         .default(Text("Creation Date")) { sortOrder = .creationDate },
                         .default(Text("Title")) { sortOrder = .title }

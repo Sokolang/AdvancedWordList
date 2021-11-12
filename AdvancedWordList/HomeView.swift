@@ -38,7 +38,7 @@ struct HomeView: View {
                         LazyHGrid(rows: projectRows) {
                             ForEach(projects) { project in
                                 VStack(alignment: .leading) {
-                                    Text("\(project.projectItems.count) items")
+                                    Text("\(project.projectItems.count) words")
                                         .font(.caption)
                                         .foregroundColor(.secondary)
                                     Text(project.projectTitle)
@@ -66,7 +66,7 @@ struct HomeView: View {
         }
     }
     
-    @ViewBuilder func list(_ title: String, for items: FetchedResults<Item>.SubSequence) -> some View {
+    @ViewBuilder func list(_ title: LocalizedStringKey, for items: FetchedResults<Item>.SubSequence) -> some View {
         if items.isEmpty {
             EmptyView()
             

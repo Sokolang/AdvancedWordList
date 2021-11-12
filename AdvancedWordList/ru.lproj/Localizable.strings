@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  AdvancedWordList
+
+  Created by Anzhellika Sokolova on 12.11.2021.
+  
+*/
+
+/* GENERAL STRINGS */
+
+"OK" = "OK";
+"Delete" = "Удалить";
+"Basic settings" = "Базовые настройки";
+
+
+
+/* MAIN ACTIVITIES */
+
+"Home" = "Главная";
+"Open" = "В работе";
+"Closed" = "Выучено";
+"Awards" = "Награды";
+
+
+
+/* HOME VIEW */
+
+"Up next" = "Следующие";
+"More to explore" = "Больше для изучения";
+
+
+
+/* PROJECTS VIEW */
+
+"Open Themes" = "В работе";
+"Closed Themes" = "Выполнено";
+"Add Theme" = "Добавить тему";
+"Add New Word" = "Добавить новое слово";
+"There's nothing here right now" = "СЕйчас здесь ничего нет";
+
+/* A button that shows a menu with the following options */
+"Sort" = "Сортировать";
+"Sort words" = "Сортировать слова"; /* The title of the menu */
+"Optimized" = "оптимизированно"; /* Sort using an optimized algorithm */
+"Creation Date" = "по дате создания"; /* Sort by the date words were created */
+"Title" = "по заголовку"; /* Sort by word title */
+
+/* Default names for a new project and a new item */
+"New Theme" = "Новая тема";
+"New Word" = "Новое слово";
+
+
+
+/* EDITING PROJECTS */
+"Edit Theme" = "Редактировать тему";
+"Theme name" = "Заголовок темы";
+"Description of this theme" = "Описание темы";
+"Custom theme color" = "Цвет темы";
+
+/* Options to close (mark as finished), open (mark as unfinished), or delete a project. */
+"Close this theme" = "Выполнить эту тему";
+"Closing a theme moves it from the Open to Closed tab; deleting it removes the theme entirely." = "Closing a theme moves it from the Open to Closed tab; deleting it removes the theme entirely.";
+"Reopen this theme" = "Вернуть тему в работу";
+"Delete this theme" = "Удалить эту тему";
+"Delete theme?" = "Удалить тему?";
+"Are you sure you want to delete this theme? You will also delete all the words it contains." = "Are you sure you want to delete this theme? You will also delete all the words it contains.";
+
+
+
+/* EDITING ITEMS */
+"Edit Word" = "Редактировать слово";
+"Word name" = "Слово";
+"Translation" = "Перевод";
+"Priority" = "Приоритет";
+"Low" = "Низкий";
+"Medium" = "Средний";
+"High" = "Высокий";
+
+"Mark Completed" = "Слово выучено"; /* Mark this item as being completed (finished/accomplished) */
+
+
+
+/* AWARDS */
+
+"Locked" = "Закрыто";
+"Unlocked: %@" = "Открыто: %@";
+
+
+
+/* OTHER STRINGS */
+
+/* Shown by default when the user hasn't select a project or item */
+"Please select something from the menu to begin." = "Пожалуйста, выберите из меню, чтобы начать.";
