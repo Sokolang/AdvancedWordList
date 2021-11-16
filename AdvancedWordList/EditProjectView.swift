@@ -54,6 +54,13 @@ struct EditProjectView: View {
                             color = item
                             update()
                         }
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityAddTraits(
+                            item == color
+                                ? [.isButton, .isSelected]
+                                : .isButton
+                        )
+                        .accessibilityLabel(LocalizedStringKey(item))
                     }
                 }
                 .padding(.vertical)
@@ -63,10 +70,12 @@ struct EditProjectView: View {
                     project.closed.toggle()
                     update()
                 }
+
                 Button("Delete this theme") {
                     showingDeleteConfirm.toggle()
                 }
                 .accentColor(.red)
+                
              }
         }
         .navigationTitle("Edit Theme")
@@ -76,6 +85,7 @@ struct EditProjectView: View {
         .alert(isPresented: $showingDeleteConfirm) {
               Alert(title: Text("Delete theme?"), message: Text("Are you sure you want to delete the theme?"))
         }
+        
     }
     
     func update() {

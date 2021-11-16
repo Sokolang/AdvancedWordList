@@ -65,13 +65,14 @@ struct ProjectsView: View {
                         }
                     }
                     .listStyle(InsetGroupedListStyle())
-
+                    
                 }
             }
-                .navigationTitle(showClosedProjects ? "Closed Themes" : "Open Themes")
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        if showClosedProjects == false { Button {
+            .navigationTitle(showClosedProjects ? "Closed Themes" : "Open Themes")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    if showClosedProjects == false {
+                        Button {
                             withAnimation {
                                 let project = Project(context: managedObjectContext)
                                 project.closed = false
@@ -79,23 +80,28 @@ struct ProjectsView: View {
                                 dataController.save()
                             }
                         } label: {
-                            Label("Add Theme", systemImage: "plus")
+                            if UIAccessibility.isVoiceOverRunning { Text("Add Theme")
+                            } else {
+                                Label("Add Theme", systemImage: "plus")
+                            }
                         }
-                        } }
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Button {
-                            showingSortOrder.toggle()
-                        } label: {
-                            Label("Sort", systemImage: "arrow.up.arrow.down")
-                        }
-                    } }
-                .actionSheet(isPresented: $showingSortOrder) {
-                    ActionSheet(title: Text("Sort words"), message: nil, buttons: [
-                        .default(Text("Optimized")) { sortOrder = .optimized },
-                        .default(Text("Creation Date")) { sortOrder = .creationDate },
-                        .default(Text("Title")) { sortOrder = .title }
-                    ])
+                    }
                 }
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Button {
+                        showingSortOrder.toggle()
+                    } label: {
+                        Label("Sort", systemImage: "arrow.up.arrow.down")
+                    }
+                }
+            }
+            .actionSheet(isPresented: $showingSortOrder) {
+                ActionSheet(title: Text("Sort words"), message: nil, buttons: [
+                    .default(Text("Optimized")) { sortOrder = .optimized },
+                    .default(Text("Creation Date")) { sortOrder = .creationDate },
+                    .default(Text("Title")) { sortOrder = .title }
+                ])
+            }
             SelectSomethingView()
         }
     }

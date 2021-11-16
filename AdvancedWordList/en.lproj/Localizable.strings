@@ -91,3 +91,21 @@
 
 /* Shown by default when the user hasn't select a project or item */
 "Please select something from the menu to begin." = "Please select something from the menu to begin.";
+
+"%@, %lld words, %g%% complete." = "%@, %lld words, %g%% complete.";
+"Select a theme color" = "Select a theme color";
+  "Pink" = "Pink";
+  "Purple" = "Purple";
+  "Red" = "Red";
+  "Orange" = "Orange";
+  "Gold" = "Gold";
+  "Green" = "Green";
+  "Teal" = "Teal";
+  "Light Blue" = "Light Blue";
+  "Dark Blue" = "Dark Blue";
+  "Midnight" = "Midnight";
+  "Dark Gray" = "Dark Gray";
+  "Gray" = "Gray";
+
+"%@, completed." = "%@, completed.";
+"%@, high priority." = "%@, high priority.";

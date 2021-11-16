@@ -91,3 +91,21 @@
 
 /* Shown by default when the user hasn't select a project or item */
 "Please select something from the menu to begin." = "Пожалуйста, выберите из меню, чтобы начать.";
+
+"%@, %lld words, %g%% complete." = "%@, %lld слов, %g%% выучены.";
+"Select a theme color" = "Выбери цвет темы";
+  "Pink" = "Розовый";
+  "Purple" = "Фиолетовый";
+  "Red" = "Красный";
+  "Orange" = "Оранжевый";
+  "Gold" = "Золотой";
+  "Green" = "Зеленый";
+  "Teal" = "Бирюзовый";
+  "Light Blue" = "Голубой";
+  "Dark Blue" = "Синий";
+  "Midnight" = "Черный";
+  "Dark Gray" = "Тёмно серый";
+  "Gray" = "Серый";
+
+"%@, completed." = "%@, выучено.";
+"%@, high priority." = "%@, высокий приоритет.";
