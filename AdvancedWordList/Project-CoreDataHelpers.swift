@@ -5,9 +5,12 @@
 //  Created by Anzhellika Sokolova on 20.10.2021.
 //
 
-import Foundation
+import SwiftUI
 
 extension Project {
+    var label: LocalizedStringKey {
+        LocalizedStringKey("\(projectTitle), \(projectItems.count) words, \(completionAmount * 100, specifier: "%g")% complete")
+    }
 
     var projectTitle: String {
         title ?? NSLocalizedString("New Theme", comment: "Create a new theme")

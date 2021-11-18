@@ -31,6 +31,8 @@
 		F0A8BDDF273EF82000CBD75B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0A8BDE1273EF82000CBD75B /* Localizable.strings */; };
 		F0A8BDE3273EF88800CBD75B /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = F0A8BDE5273EF88800CBD75B /* Localizable.stringsdict */; };
 		F0A8BDE7273EF8B300CBD75B /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A8BDE9273EF8B300CBD75B /* Awards.json */; };
+		F0A8BDFA2746EF5B00CBD75B /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8BDF92746EF5B00CBD75B /* ItemListView.swift */; };
+		F0A8BDFC2746EFBC00CBD75B /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		F0A8BDE6273EF8AD00CBD75B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		F0A8BDE8273EF8B300CBD75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = en; path = en.lproj/Awards.json; sourceTree = "<group>"; };
 		F0A8BDEA273EF8B800CBD75B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = ru; path = ru.lproj/Awards.json; sourceTree = "<group>"; };
+		F0A8BDF92746EF5B00CBD75B /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +119,10 @@
 				F014671427230D9C001C4F7C /* ItemRowView.swift */,
 				F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */,
 				F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */,
+				F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */,
 				F04FE5F2271C872200DA5AF5 /* Main.xcdatamodeld */,
 				F04FE64F271DF4D500DA5AF5 /* HomeView.swift */,
+				F0A8BDF92746EF5B00CBD75B /* ItemListView.swift */,
 				F04FE651271DF4E900DA5AF5 /* ProjectsView.swift */,
 				F01467242725BDE9001C4F7C /* Colors.xcassets */,
 				F04FE5F5271C88AC00DA5AF5 /* DataController.swift */,
@@ -224,11 +230,13 @@
 				F06539CE273565A7009E4E2C /* Bundle-Decodable.swift in Sources */,
 				F06539DC2736955C009E4E2C /* Color-Additions.swift in Sources */,
 				F01467232725BDAF001C4F7C /* ProjectHeaderView.swift in Sources */,
+				F0A8BDFC2746EFBC00CBD75B /* ProjectSummaryView.swift in Sources */,
 				F014671527230D9C001C4F7C /* ItemRowView.swift in Sources */,
 				F06539D2273565F1009E4E2C /* AwardsView.swift in Sources */,
 				F04FE5E6271C86FC00DA5AF5 /* ContentView.swift in Sources */,
 				F04FE650271DF4D500DA5AF5 /* HomeView.swift in Sources */,
 				F06539AC272B4825009E4E2C /* EditProjectView.swift in Sources */,
+				F0A8BDFA2746EF5B00CBD75B /* ItemListView.swift in Sources */,
 				F04FE5E4271C86FC00DA5AF5 /* AdvancedWordListApp.swift in Sources */,
 				F0418790272068E0002A80E1 /* Item-CoreDataHelpers.swift in Sources */,
 				F06539D0273565CB009E4E2C /* Award.swift in Sources */,
