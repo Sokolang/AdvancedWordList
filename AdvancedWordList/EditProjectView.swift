@@ -61,7 +61,7 @@ struct EditProjectView: View {
         .onChange(of: title) {_ in update() }
         .onChange(of: detail) {_ in update() }
         .alert(isPresented: $showingDeleteConfirm) {
-              Alert(title: Text("Delete theme?"), message: Text("Are you sure you want to delete the theme?"))
+            Alert(title: Text("Delete theme?"), message: Text("Are you sure you want to delete the theme?"), primaryButton: .default(Text("Delete"), action: delete), secondaryButton: .cancel())
         }
         
     }
