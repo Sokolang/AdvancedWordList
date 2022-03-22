@@ -11,6 +11,10 @@
 		F014671527230D9C001C4F7C /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014671427230D9C001C4F7C /* ItemRowView.swift */; };
 		F01467232725BDAF001C4F7C /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */; };
 		F01467252725BDE9001C4F7C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01467242725BDE9001C4F7C /* Colors.xcassets */; };
+		F01EFB1527EA5F4E00D6F5F4 /* AdvancedWordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01EFB1427EA5F4E00D6F5F4 /* AdvancedWordListTests.swift */; };
+		F01EFB1C27EA612500D6F5F4 /* AssetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01EFB1B27EA612500D6F5F4 /* AssetTests.swift */; };
+		F01EFB2027EA65AE00D6F5F4 /* ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01EFB1F27EA65AE00D6F5F4 /* ProjectTests.swift */; };
+		F01EFB2227EA678F00D6F5F4 /* AwardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01EFB2127EA678F00D6F5F4 /* AwardTests.swift */; };
 		F0418790272068E0002A80E1 /* Item-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */; };
 		F041879227206924002A80E1 /* Project-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */; };
 		F04FE5E4271C86FC00DA5AF5 /* AdvancedWordListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FE5E3271C86FC00DA5AF5 /* AdvancedWordListApp.swift */; };
@@ -35,11 +39,26 @@
 		F0A8BDFC2746EFBC00CBD75B /* ProjectSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F01EFB1627EA5F4E00D6F5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04FE5D8271C86FC00DA5AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04FE5DF271C86FC00DA5AF5;
+			remoteInfo = AdvancedWordList;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F014671227230D73001C4F7C /* EditItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItemView.swift; sourceTree = "<group>"; };
 		F014671427230D9C001C4F7C /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		F01467242725BDE9001C4F7C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		F01EFB1227EA5F4E00D6F5F4 /* AdvancedWordListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedWordListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01EFB1427EA5F4E00D6F5F4 /* AdvancedWordListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedWordListTests.swift; sourceTree = "<group>"; };
+		F01EFB1B27EA612500D6F5F4 /* AssetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetTests.swift; sourceTree = "<group>"; };
+		F01EFB1F27EA65AE00D6F5F4 /* ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTests.swift; sourceTree = "<group>"; };
+		F01EFB2127EA678F00D6F5F4 /* AwardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardTests.swift; sourceTree = "<group>"; };
 		F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Project-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		F04FE5E0271C86FC00DA5AF5 /* AdvancedWordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedWordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +90,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F01EFB0F27EA5F4E00D6F5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F04FE5DD271C86FC00DA5AF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,10 +197,22 @@
 			path = Awards;
 			sourceTree = "<group>";
 		};
+		F01EFB1327EA5F4E00D6F5F4 /* AdvancedWordListTests */ = {
+			isa = PBXGroup;
+			children = (
+				F01EFB1427EA5F4E00D6F5F4 /* AdvancedWordListTests.swift */,
+				F01EFB1B27EA612500D6F5F4 /* AssetTests.swift */,
+				F01EFB1F27EA65AE00D6F5F4 /* ProjectTests.swift */,
+				F01EFB2127EA678F00D6F5F4 /* AwardTests.swift */,
+			);
+			path = AdvancedWordListTests;
+			sourceTree = "<group>";
+		};
 		F04FE5D7271C86FC00DA5AF5 = {
 			isa = PBXGroup;
 			children = (
 				F04FE5E2271C86FC00DA5AF5 /* AdvancedWordList */,
+				F01EFB1327EA5F4E00D6F5F4 /* AdvancedWordListTests */,
 				F04FE5E1271C86FC00DA5AF5 /* Products */,
 				F04FE5F8271C898E00DA5AF5 /* Frameworks */,
 			);
@@ -184,6 +222,7 @@
 			isa = PBXGroup;
 			children = (
 				F04FE5E0271C86FC00DA5AF5 /* AdvancedWordList.app */,
+				F01EFB1227EA5F4E00D6F5F4 /* AdvancedWordListTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,6 +263,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F01EFB1127EA5F4E00D6F5F4 /* AdvancedWordListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01EFB1827EA5F4E00D6F5F4 /* Build configuration list for PBXNativeTarget "AdvancedWordListTests" */;
+			buildPhases = (
+				F01EFB0E27EA5F4E00D6F5F4 /* Sources */,
+				F01EFB0F27EA5F4E00D6F5F4 /* Frameworks */,
+				F01EFB1027EA5F4E00D6F5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01EFB1727EA5F4E00D6F5F4 /* PBXTargetDependency */,
+			);
+			name = AdvancedWordListTests;
+			productName = AdvancedWordListTests;
+			productReference = F01EFB1227EA5F4E00D6F5F4 /* AdvancedWordListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F04FE5DF271C86FC00DA5AF5 /* AdvancedWordList */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04FE5EF271C870000DA5AF5 /* Build configuration list for PBXNativeTarget "AdvancedWordList" */;
@@ -247,9 +304,13 @@
 		F04FE5D8271C86FC00DA5AF5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					F01EFB1127EA5F4E00D6F5F4 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F04FE5DF271C86FC00DA5AF5;
+					};
 					F04FE5DF271C86FC00DA5AF5 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -269,11 +330,19 @@
 			projectRoot = "";
 			targets = (
 				F04FE5DF271C86FC00DA5AF5 /* AdvancedWordList */,
+				F01EFB1127EA5F4E00D6F5F4 /* AdvancedWordListTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F01EFB1027EA5F4E00D6F5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F04FE5DE271C86FC00DA5AF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,6 +359,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F01EFB0E27EA5F4E00D6F5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01EFB1C27EA612500D6F5F4 /* AssetTests.swift in Sources */,
+				F01EFB2227EA678F00D6F5F4 /* AwardTests.swift in Sources */,
+				F01EFB1527EA5F4E00D6F5F4 /* AdvancedWordListTests.swift in Sources */,
+				F01EFB2027EA65AE00D6F5F4 /* ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F04FE5DC271C86FC00DA5AF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,6 +397,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F01EFB1727EA5F4E00D6F5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04FE5DF271C86FC00DA5AF5 /* AdvancedWordList */;
+			targetProxy = F01EFB1627EA5F4E00D6F5F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F0A8BDE1273EF82000CBD75B /* Localizable.strings */ = {
@@ -349,6 +437,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F01EFB1927EA5F4E00D6F5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF78UH6P5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sokolang.AdvancedWordListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedWordList.app/AdvancedWordList";
+			};
+			name = Debug;
+		};
+		F01EFB1A27EA5F4E00D6F5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF78UH6P5P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sokolang.AdvancedWordListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedWordList.app/AdvancedWordList";
+			};
+			name = Release;
+		};
 		F04FE5ED271C870000DA5AF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -514,6 +642,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F01EFB1827EA5F4E00D6F5F4 /* Build configuration list for PBXNativeTarget "AdvancedWordListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01EFB1927EA5F4E00D6F5F4 /* Debug */,
+				F01EFB1A27EA5F4E00D6F5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F04FE5DB271C86FC00DA5AF5 /* Build configuration list for PBXProject "AdvancedWordList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
