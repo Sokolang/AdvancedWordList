@@ -82,6 +82,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F01EFB0427EA553C00D6F5F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */,
+				F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F01EFB0627EA557200D6F5F4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F04FE5F5271C88AC00DA5AF5 /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F01EFB0727EA569C00D6F5F4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F06539CD273565A7009E4E2C /* Bundle-Decodable.swift */,
+				F06539DB2736955C009E4E2C /* Color-Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F01EFB0827EA56A600D6F5F4 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8BDE1273EF82000CBD75B /* Localizable.strings */,
+				F0A8BDE5273EF88800CBD75B /* Localizable.stringsdict */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		F01EFB0927EA56BD00D6F5F4 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F04FE5F2271C872200DA5AF5 /* Main.xcdatamodeld */,
+				F04FE5EC271C870000DA5AF5 /* Info.plist */,
+				F04FE5F7271C893E00DA5AF5 /* AdvancedWordList.entitlements */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		F01EFB0A27EA59B700D6F5F4 /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				F01EFB0B27EA59CA00D6F5F4 /* Home */,
+				F01EFB0C27EA59D600D6F5F4 /* Projects */,
+				F01EFB0D27EA59FA00D6F5F4 /* Awards */,
+			);
+			path = Activities;
+			sourceTree = "<group>";
+		};
+		F01EFB0B27EA59CA00D6F5F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F04FE64F271DF4D500DA5AF5 /* HomeView.swift */,
+				F0A8BDF92746EF5B00CBD75B /* ItemListView.swift */,
+				F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F01EFB0C27EA59D600D6F5F4 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				F01EFB0427EA553C00D6F5F4 /* Models */,
+				F04FE651271DF4E900DA5AF5 /* ProjectsView.swift */,
+				F06539B3273304E4009E4E2C /* SelectSomethingView.swift */,
+				F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */,
+				F014671427230D9C001C4F7C /* ItemRowView.swift */,
+				F014671227230D73001C4F7C /* EditItemView.swift */,
+				F06539AB272B4825009E4E2C /* EditProjectView.swift */,
+			);
+			path = Projects;
+			sourceTree = "<group>";
+		};
+		F01EFB0D27EA59FA00D6F5F4 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				F06539D1273565F1009E4E2C /* AwardsView.swift */,
+				F06539CF273565CB009E4E2C /* Award.swift */,
+				F0A8BDE9273EF8B300CBD75B /* Awards.json */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
 		F04FE5D7271C86FC00DA5AF5 = {
 			isa = PBXGroup;
 			children = (
@@ -102,32 +191,15 @@
 		F04FE5E2271C86FC00DA5AF5 /* AdvancedWordList */ = {
 			isa = PBXGroup;
 			children = (
-				F04FE5F7271C893E00DA5AF5 /* AdvancedWordList.entitlements */,
+				F01EFB0A27EA59B700D6F5F4 /* Activities */,
+				F01EFB0927EA56BD00D6F5F4 /* Configuration */,
+				F01EFB0827EA56A600D6F5F4 /* Localization */,
+				F01EFB0727EA569C00D6F5F4 /* Extensions */,
+				F01EFB0627EA557200D6F5F4 /* Controllers */,
 				F04FE5E3271C86FC00DA5AF5 /* AdvancedWordListApp.swift */,
-				F0A8BDE1273EF82000CBD75B /* Localizable.strings */,
-				F0A8BDE5273EF88800CBD75B /* Localizable.stringsdict */,
-				F0A8BDE9273EF8B300CBD75B /* Awards.json */,
-				F06539CF273565CB009E4E2C /* Award.swift */,
-				F06539CD273565A7009E4E2C /* Bundle-Decodable.swift */,
-				F06539D1273565F1009E4E2C /* AwardsView.swift */,
-				F06539DB2736955C009E4E2C /* Color-Additions.swift */,
-				F06539B3273304E4009E4E2C /* SelectSomethingView.swift */,
-				F06539AB272B4825009E4E2C /* EditProjectView.swift */,
-				F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */,
-				F04FE5E5271C86FC00DA5AF5 /* ContentView.swift */,
-				F014671227230D73001C4F7C /* EditItemView.swift */,
-				F014671427230D9C001C4F7C /* ItemRowView.swift */,
-				F041878F272068E0002A80E1 /* Item-CoreDataHelpers.swift */,
-				F041879127206924002A80E1 /* Project-CoreDataHelpers.swift */,
-				F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */,
-				F04FE5F2271C872200DA5AF5 /* Main.xcdatamodeld */,
-				F04FE64F271DF4D500DA5AF5 /* HomeView.swift */,
-				F0A8BDF92746EF5B00CBD75B /* ItemListView.swift */,
-				F04FE651271DF4E900DA5AF5 /* ProjectsView.swift */,
 				F01467242725BDE9001C4F7C /* Colors.xcassets */,
-				F04FE5F5271C88AC00DA5AF5 /* DataController.swift */,
+				F04FE5E5271C86FC00DA5AF5 /* ContentView.swift */,
 				F04FE5E7271C870000DA5AF5 /* Assets.xcassets */,
-				F04FE5EC271C870000DA5AF5 /* Info.plist */,
 				F04FE5E9271C870000DA5AF5 /* Preview Content */,
 			);
 			path = AdvancedWordList;
@@ -398,12 +470,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AdvancedWordList/AdvancedWordList.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AdvancedWordList/Configuration/AdvancedWordList.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AdvancedWordList/Preview Content\"";
 				DEVELOPMENT_TEAM = FF78UH6P5P;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AdvancedWordList/Info.plist;
+				INFOPLIST_FILE = AdvancedWordList/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -421,12 +493,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AdvancedWordList/AdvancedWordList.entitlements;
+				CODE_SIGN_ENTITLEMENTS = AdvancedWordList/Configuration/AdvancedWordList.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AdvancedWordList/Preview Content\"";
 				DEVELOPMENT_TEAM = FF78UH6P5P;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AdvancedWordList/Info.plist;
+				INFOPLIST_FILE = AdvancedWordList/Configuration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

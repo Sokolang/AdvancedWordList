@@ -2,7 +2,7 @@
 //  ProjectHeaderView.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 24.10.2021.
+//  Created by Anzhelika Sokolova on 24.10.2021.
 //
 
 import SwiftUI

@@ -1,12 +1,5 @@
-//
-//  AwardsView.swift
-//  AdvancedWordList
-//
-//  Created by Anzhellika Sokolova on 05.11.2021.
-//
 
 import SwiftUI
-
 struct AwardsView: View {
     static let tag: String? = "Awards"
     var columns: [GridItem] {
