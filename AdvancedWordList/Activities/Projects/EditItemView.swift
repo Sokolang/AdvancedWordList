@@ -2,7 +2,7 @@
 //  EditItemView.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 22.10.2021.
+//  Created by Anzhelika Sokolova on 22.10.2021.
 //
 
 import SwiftUI

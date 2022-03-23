@@ -25,11 +25,8 @@ class AwardTests: BaseTestCase {
     func testItemAwards() throws {
         let values = [1, 10, 20, 50, 100, 250, 500, 1000]
         for (count, value) in values.enumerated() {
-            var items = [Item]()
-            
             for _ in 0..<value {
-                let item = Item(context: managedObjectContext)
-                items.append(item)
+                _ = Item(context: managedObjectContext)
             }
             
             let matches = awards.filter { award in
@@ -38,9 +35,7 @@ class AwardTests: BaseTestCase {
             
             XCTAssertEqual(matches.count, count + 1, "Adding \(value) items should unlock \(count + 1) awards.")
             
-            for item in items {
-                dataController.delete(item)
-            }
+            dataController.deleteAll()
         }
     }
 }
