@@ -2,7 +2,7 @@
 //  Bundle-Decodable.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 05.11.2021.
+//  Created by Anzhelika Sokolova on 05.11.2021.
 //
 
 import Foundation

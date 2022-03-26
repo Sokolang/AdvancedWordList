@@ -2,7 +2,7 @@
 //  ItemListView.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 18.11.2021.
+//  Created by Anzhelika Sokolova on 18.11.2021.
 //
 
 import SwiftUI
@@ -10,7 +10,7 @@ import SwiftUI
 struct ItemListView: View {
     
     let title: LocalizedStringKey
-    let items: FetchedResults<Item>.SubSequence
+    let items: ArraySlice<Item>
     
     var body: some View {
         if items.isEmpty {

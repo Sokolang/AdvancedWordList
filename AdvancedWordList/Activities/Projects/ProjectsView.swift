@@ -9,33 +9,19 @@ import SwiftUI
 
 struct ProjectsView: View {
     
-    // let showClosedProjects: Bool
-    // let projects: FetchRequest<Project>
-    
     static let openTag: String? = "Open"
     static let closedTag: String? = "Closed"
-    //not need at all
-    //   @EnvironmentObject var dataController: DataController
-    //  @Environment(\.managedObjectContext) var managedObjectContext
     @StateObject var viewModel: ViewModel
     @State private var showingSortOrder = false
-    //  @State private var sortOrder = Item.SortOrder.optimized
-    
-    /*   init(showClosedProjects: Bool) { self.showClosedProjects = showClosedProjects
-     projects = FetchRequest<Project>(entity: Project.entity(), sortDescriptors: [
-     NSSortDescriptor(keyPath: \Project.creationDate, ascending: false)
-     ], predicate: NSPredicate(format: "closed = %d", showClosedProjects))
-     }    */
     
     var projectsList: some View {
         List {
             ForEach(viewModel.projects) { project in
                 Section(header: ProjectHeaderView(project: project)) {
                     ForEach(items(for: project)) { item in
-                        ItemRowView(item: item, project: project)
+                        ItemRowView(project: project, item: item)
                     }
                     .onDelete { offsets in
-                        // delete(offsets, from: project)
                         let allItems = items(for: project)
                         
                         for offset in offsets {
@@ -113,24 +99,6 @@ struct ProjectsView: View {
         }
     }
     
-    /*   func addItem(to project: Project) {
-     withAnimation {
-     let item = Item(context: managedObjectContext)
-     item.project = project
-     item.creationDate = Date()
-     dataController.save()
-     }
-     }
-     
-     func addProject() {
-     withAnimation {
-     let project = Project(context: managedObjectContext)
-     project.closed = false
-     project.creationDate = Date()
-     dataController.save()
-     }
-     }    */
-    
     func items(for project: Project) -> [Item] {
         switch viewModel.sortOrder {
         case .title:
@@ -149,11 +117,7 @@ struct ProjectsView: View {
 }
 
 struct ProjectsView_Previews: PreviewProvider {
-    // static var dataController = DataController.preview
-    
     static var previews: some View {
         ProjectsView(dataController: DataController.preview, showClosedProjects: false)
-        //        .environment(\.managedObjectContext, dataController.container.viewContext)
-        //       .environmentObject(dataController)
     }
 }

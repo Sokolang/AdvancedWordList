@@ -2,7 +2,7 @@
 //  Project-CoreDataHelpers.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 20.10.2021.
+//  Created by Anzhelika Sokolova on 20.10.2021.
 //
 
 import SwiftUI

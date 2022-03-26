@@ -2,19 +2,17 @@
 //  ProjectsViewModel.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 23.03.2022.
+//  Created by Anzhelika Sokolova on 23.03.2022.
 //
 
 import CoreData
 import Foundation
-import SwiftUI
 
 extension ProjectsView {
     class ViewModel: NSObject, ObservableObject, NSFetchedResultsControllerDelegate {
         let dataController: DataController
         
         let showClosedProjects: Bool
-        // let projects: FetchRequest<Project>
         var sortOrder = Item.SortOrder.optimized
         
         private let projectsController: NSFetchedResultsController<Project>
@@ -44,9 +42,6 @@ extension ProjectsView {
             } catch {
                 print("Failed to fetch projects")
             }
-            /*     projects = FetchRequest<Project>(entity: Project.entity(), sortDescriptors: [
-             NSSortDescriptor(keyPath: \Project.creationDate, ascending: false)
-             ], predicate: NSPredicate(format: "closed = %d", showClosedProjects)) */
         }
         
         func addItem(to project: Project) {
@@ -69,15 +64,6 @@ extension ProjectsView {
                   }
         }
         
-        /*     func delete(_ offsets: IndexSet, from project: Project) {
-         //let allItems = project.projectItems(for: project)
-         let allItems = items(for: project)
-         for offset in offsets {
-         let item = allItems[offset]
-         dataController.delete(item)
-         }
-         dataController.save()
-         } */
     }
     
 }

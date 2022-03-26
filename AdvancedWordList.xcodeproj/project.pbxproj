@@ -36,6 +36,8 @@
 		F06539D2273565F1009E4E2C /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539D1273565F1009E4E2C /* AwardsView.swift */; };
 		F06539DC2736955C009E4E2C /* Color-Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06539DB2736955C009E4E2C /* Color-Additions.swift */; };
 		F0882FAF27EB742C00264C60 /* ProjectsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0882FAE27EB742C00264C60 /* ProjectsViewModel.swift */; };
+		F0882FB127EF464C00264C60 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0882FB027EF464C00264C60 /* HomeViewModel.swift */; };
+		F0882FB327EF592C00264C60 /* ItemRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0882FB227EF592C00264C60 /* ItemRowViewModel.swift */; };
 		F0A8BDDF273EF82000CBD75B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0A8BDE1273EF82000CBD75B /* Localizable.strings */; };
 		F0A8BDE3273EF88800CBD75B /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = F0A8BDE5273EF88800CBD75B /* Localizable.stringsdict */; };
 		F0A8BDE7273EF8B300CBD75B /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = F0A8BDE9273EF8B300CBD75B /* Awards.json */; };
@@ -95,6 +97,8 @@
 		F06539D1273565F1009E4E2C /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 		F06539DB2736955C009E4E2C /* Color-Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Additions.swift"; sourceTree = "<group>"; };
 		F0882FAE27EB742C00264C60 /* ProjectsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsViewModel.swift; sourceTree = "<group>"; };
+		F0882FB027EF464C00264C60 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F0882FB227EF592C00264C60 /* ItemRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowViewModel.swift; sourceTree = "<group>"; };
 		F0A8BDE0273EF82000CBD75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F0A8BDE2273EF82700CBD75B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F0A8BDE4273EF88800CBD75B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				F04FE64F271DF4D500DA5AF5 /* HomeView.swift */,
+				F0882FB027EF464C00264C60 /* HomeViewModel.swift */,
 				F0A8BDF92746EF5B00CBD75B /* ItemListView.swift */,
 				F0A8BDFB2746EFBC00CBD75B /* ProjectSummaryView.swift */,
 			);
@@ -197,6 +202,7 @@
 				F06539B3273304E4009E4E2C /* SelectSomethingView.swift */,
 				F01467222725BDAF001C4F7C /* ProjectHeaderView.swift */,
 				F014671427230D9C001C4F7C /* ItemRowView.swift */,
+				F0882FB227EF592C00264C60 /* ItemRowViewModel.swift */,
 				F014671227230D73001C4F7C /* EditItemView.swift */,
 				F06539AB272B4825009E4E2C /* EditProjectView.swift */,
 			);
@@ -373,6 +379,7 @@
 			knownRegions = (
 				en,
 				ru,
+				Base,
 			);
 			mainGroup = F04FE5D7271C86FC00DA5AF5;
 			productRefGroup = F04FE5E1271C86FC00DA5AF5 /* Products */;
@@ -446,6 +453,7 @@
 				F04FE652271DF4E900DA5AF5 /* ProjectsView.swift in Sources */,
 				F04FE5F4271C872200DA5AF5 /* Main.xcdatamodeld in Sources */,
 				F041879227206924002A80E1 /* Project-CoreDataHelpers.swift in Sources */,
+				F0882FB327EF592C00264C60 /* ItemRowViewModel.swift in Sources */,
 				F04FE5F6271C88AC00DA5AF5 /* DataController.swift in Sources */,
 				F06539B4273304E4009E4E2C /* SelectSomethingView.swift in Sources */,
 				F06539CE273565A7009E4E2C /* Bundle-Decodable.swift in Sources */,
@@ -458,6 +466,7 @@
 				F04FE650271DF4D500DA5AF5 /* HomeView.swift in Sources */,
 				F06539AC272B4825009E4E2C /* EditProjectView.swift in Sources */,
 				F0A8BDFA2746EF5B00CBD75B /* ItemListView.swift in Sources */,
+				F0882FB127EF464C00264C60 /* HomeViewModel.swift in Sources */,
 				F04FE5E4271C86FC00DA5AF5 /* AdvancedWordListApp.swift in Sources */,
 				F0418790272068E0002A80E1 /* Item-CoreDataHelpers.swift in Sources */,
 				F06539D0273565CB009E4E2C /* Award.swift in Sources */,

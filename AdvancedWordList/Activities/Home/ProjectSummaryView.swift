@@ -2,7 +2,7 @@
 //  ProjectSummaryView.swift
 //  AdvancedWordList
 //
-//  Created by Anzhellika Sokolova on 18.11.2021.
+//  Created by Anzhelika Sokolova on 18.11.2021.
 //
 
 import SwiftUI
