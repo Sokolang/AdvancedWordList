@@ -36,7 +36,7 @@
 "Closed Themes" = "Выполнено";
 "Add Theme" = "Добавить тему";
 "Add New Word" = "Добавить новое слово";
-"There's nothing here right now" = "СЕйчас здесь ничего нет";
+"There's nothing here right now." = "Сейчас здесь ничего нет.";
 
 /* A button that shows a menu with the following options */
 "Sort" = "Сортировать";

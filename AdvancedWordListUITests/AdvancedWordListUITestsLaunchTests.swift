@@ -2,7 +2,7 @@
 //  AdvancedWordListUITestsLaunchTests.swift
 //  AdvancedWordListUITests
 //
-//  Created by Anzhellika Sokolova on 22.03.2022.
+//  Created by Anzhelika Sokolova on 22.03.2022.
 //
 
 import XCTest
